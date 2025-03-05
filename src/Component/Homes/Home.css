@@ -1,0 +1,506 @@
+/* General Container */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 120px;
+    
+}
+
+
+/* Heading Section */
+
+.heading-section h1 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    max-width: 90%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.heading-section .highlight {
+    font-weight: 700;
+    color: #064e3b;
+    position: relative;
+}
+
+.heading-section .highlight::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #e0f2fe;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.subheading {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+    max-width: 85%;
+}
+
+
+/* Button Section */
+
+.button-section {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.partner-btn,
+.services-btn {
+    padding: 14px 22px;
+    border-radius: 35px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+    min-width: 200px;
+}
+
+.partner-btn {
+    background-color: #064e3b;
+    color: white;
+}
+
+.partner-btn:hover {
+    background-color: #036256;
+    transform: scale(1.05);
+}
+
+.services-btn {
+    background-color: #e0f2fe;
+    color: black;
+}
+
+.services-btn:hover {
+    background-color: #bae6fd;
+    transform: scale(1.05);
+}
+
+
+/* Logo Section */
+
+.logo-section {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+    position: relative;
+}
+
+.logo-slider {
+    display: flex;
+    gap: 30px;
+    animation: scroll 20s linear infinite;
+    width: max-content;
+}
+
+.logo-item img {
+    max-width: 110px;
+    max-height: 70px;
+    object-fit: contain;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo-item img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+
+/* Keyframes for Smooth Continuous Scroll */
+
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+/* Image Container */
+
+.sky-img-container {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.sky-images {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 1024px) {
+    .heading-section h1 {
+        font-size: 2.4rem;
+    }
+    .subheading {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading-section h1 {
+        font-size: 2rem;
+    }
+    .subheading {
+        font-size: 1rem;
+        max-width: 90%;
+    }
+    .button-section {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .partner-btn,
+    .services-btn {
+        width: 90%;
+    }
+    .logo-slider {
+        animation: scroll 30s linear infinite;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-container {
+      
+        margin-top: 100px;
+    }
+    .heading-section h1 {
+        font-size: 1.8rem;
+    }
+    .subheading {
+        font-size: 1rem;
+    }
+    .logo-item img {
+        max-width: 80px;
+        max-height: 50px;
+    }
+    .sky-img-container {
+        height: 300px;
+    }
+}
+
+
+/* General Styles */
+
+.stats-container {
+    height: auto;
+    /* Adjusts height dynamically */
+    background-color: #15382f;
+    color: white;
+    text-align: center;
+    /* Adjusted padding for better spacing */
+    width: 100%;
+}
+
+
+/* Heading */
+
+.stats-heading {
+    font-family: "EB Garamond", serif;
+    font-size: 3rem;
+    /* Adjusted for better mobile scaling */
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.move-text {
+    font-family: "Lobster", serif;
+    font-weight: bold;
+    display: inline-block;
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+
+
+/* Grid Layout */
+
+.stats-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+
+/* Cards */
+
+.stats-card {
+    flex: 1;
+    text-align: center;
+    padding: 40px;
+    position: relative;
+}
+
+
+/* Percentage Text */
+
+.stats-percentage {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/* Description */
+
+.stats-description {
+    font-size: 1rem;
+    font-weight: 300;
+    max-width: 300px;
+    margin: auto;
+}
+
+
+/* Logo */
+
+.stats-logo {
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+
+/* Divider */
+
+.divider {
+    position: absolute;
+    top: 0%;
+    right: 0;
+    height: 100%;
+    width: 1px;
+    background-color: black;
+}
+
+
+/* Hide divider for last item */
+
+.stats-card:last-child .divider {
+    display: none;
+}
+
+
+/* 🔹 Responsive Styles */
+
+@media (max-width: 1024px) {
+    .stats-grid {
+        flex-direction: column;
+        /* Switches to vertical layout */
+        gap: 40px;
+    }
+    .divider {
+        display: none;
+        /* Removes dividers for a clean look */
+    }
+}
+
+@media (max-width: 768px) {
+    .stats-heading {
+        font-size: 2.5rem;
+        /* Adjusts title size */
+    }
+    .stats-percentage {
+        font-size: 2rem;
+    }
+    .stats-description {
+        font-size: 0.9rem;
+    }
+    .stats-card {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .stats-heading {
+        font-size: 2rem;
+        /* Smaller title */
+    }
+    .stats-percentage {
+        font-size: 1.8rem;
+    }
+    .stats-description {
+        font-size: 0.85rem;
+    }
+    .stats-card {
+        padding: 20px;
+    }
+}
+
+/* IntegratedModel.css */
+
+.container-add6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
+
+.title-add6 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.description-add6 {
+    font-size: 1rem;
+    color: #666;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+.underline-add6 {
+    text-decoration: underline;
+}
+
+.grid-container-add6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    background-color: #F9F7F3;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    padding: 20px;
+}
+
+
+/* Responsive adjustments */
+
+@media (max-width: 768px) {
+    .grid-container-add6 {
+        grid-template-columns: 1fr;
+        /* Single column on smaller screens */
+    }
+    .subtitle-add6 {
+        font-size: 1.5rem;
+    }
+    .grid-item-add6 {
+        text-align: center !important;
+    }
+    .grid-container-add6::before {
+        display: none;
+        /* Hide vertical divider on small screens */
+    }
+}
+
+.grid-item-add6 {
+    position: relative;
+}
+
+.left-add6 {
+    text-align: left;
+}
+
+.right-add6 {
+    text-align: right;
+}
+
+.subtitle-add6 {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.text-add6 {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.button-add6 {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.diversity-add6 {
+    background-color: #1A3D2F;
+    color: white;
+}
+
+.inclusion-add6 {
+    background-color: #C5CBE3;
+    color: white;
+}
+
+.equity-add6 {
+    background-color: #E8EBCF;
+    color: black;
+}
+
+.belonging-add6 {
+    background-color: #B0D8EA;
+    color: black;
+}
+
+.button-add6:hover {
+    opacity: 0.8;
+}
+
+
+/* Horizontal Line */
+
+.horizontal-line-add6 {
+    grid-column: span 2;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
+
+
+/* Vertical Line */
+
+.grid-container-add6::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background-color: #ccc;
+    transform: translateX(-50%);
+}
+
+
+/* Remove vertical line on small screens */
+
+@media (max-width: 768px) {
+    .grid-container-add6::before {
+        display: none;
+    }
+    .horizontal-line-add6 {
+        grid-column: span 1;
+    }
+}
