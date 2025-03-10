@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     width: 100%;
     background-color: #ffffff;
     text-align: center;
@@ -15,12 +14,11 @@
     background-repeat: no-repeat;
 }
 
-
 /* Heading Section */
 
 .heading-section h1 {
-    font-size: 2.8rem;
-    font-weight: 400;
+    font-size: 3rem;
+    font-weight: 600;
     line-height: 1.4;
     margin-bottom: 12px;
     max-width: 90%;
@@ -30,7 +28,7 @@
 
 .heading-section .highlight {
     font-weight: 700;
-    color: #064e3b;
+    color: #e5790e;
     position: relative;
 }
 
@@ -46,6 +44,10 @@
     z-index: -1;
 }
 
+.subheading-container {
+    margin-left: 15%;
+}
+
 .subheading {
     font-size: 1.2rem;
     color: #fff;
@@ -53,27 +55,28 @@
     max-width: 85%;
 }
 
-
 /* Button Section */
 
-.button-section {
+.button-section-m {
     display: flex;
-    gap: 15px;
-    margin-top: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
     width: 100%;
+    /* padding-top: 40px; */
+    padding-right: 30px;
 }
 
 .partner-btn,
 .services-btn {
-    padding: 14px 22px;
+    padding: 8px 12px;
     border-radius: 35px;
     font-size: 1rem;
     cursor: pointer;
     border: none;
+    margin-top: 10px;
     transition: all 0.3s ease;
-    min-width: 200px;
+    min-width: 120px;
 }
 
 .partner-btn {
@@ -84,6 +87,7 @@
 .partner-btn:hover {
     background-color: #036256;
     transform: scale(1.05);
+    color: white;
 }
 
 .services-btn {
@@ -94,8 +98,8 @@
 .services-btn:hover {
     background-color: #bae6fd;
     transform: scale(1.05);
+    color: black;
 }
-
 
 /* Logo Section */
 
@@ -126,7 +130,6 @@
     opacity: 0.8;
 }
 
-
 /* Keyframes for Smooth Continuous Scroll */
 
 @keyframes scroll {
@@ -137,7 +140,6 @@
         transform: translateX(-100%);
     }
 }
-
 
 /* Image Container */
 
@@ -152,7 +154,6 @@
     height: 100%;
     object-fit: cover;
 }
-
 
 /* Responsive Design */
 
@@ -173,13 +174,13 @@
         font-size: 1rem;
         max-width: 90%;
     }
-    .button-section {
-        flex-direction: column;
+    .button-section-m {
+        display: block;
         gap: 10px;
     }
     .partner-btn,
     .services-btn {
-        width: 90%;
+        width: 30%;
     }
     .logo-slider {
         animation: scroll 30s linear infinite;
@@ -188,7 +189,6 @@
 
 @media (max-width: 480px) {
     .home-container {
-      
         margin-top: 100px;
     }
     .heading-section h1 {
@@ -206,7 +206,6 @@
     }
 }
 
-
 /* General Styles */
 
 .stats-container {
@@ -218,7 +217,6 @@
     /* Adjusted padding for better spacing */
     width: 100%;
 }
-
 
 /* Heading */
 
@@ -239,7 +237,6 @@
     border-radius: 5px;
 }
 
-
 /* Grid Layout */
 
 .stats-grid {
@@ -251,7 +248,6 @@
     position: relative;
 }
 
-
 /* Cards */
 
 .stats-card {
@@ -261,7 +257,6 @@
     position: relative;
 }
 
-
 /* Percentage Text */
 
 .stats-percentage {
@@ -269,7 +264,6 @@
     font-weight: bold;
     margin-bottom: 10px;
 }
-
 
 /* Description */
 
@@ -280,7 +274,6 @@
     margin: auto;
 }
 
-
 /* Logo */
 
 .stats-logo {
@@ -288,7 +281,6 @@
     width: 200px;
     margin-top: 20px;
 }
-
 
 /* Divider */
 
@@ -301,13 +293,11 @@
     background-color: black;
 }
 
-
 /* Hide divider for last item */
 
 .stats-card:last-child .divider {
     display: none;
 }
-
 
 /* 🔹 Responsive Styles */
 
@@ -395,7 +385,6 @@
     padding: 20px;
 }
 
-
 /* Responsive adjustments */
 
 @media (max-width: 768px) {
@@ -470,7 +459,6 @@
     opacity: 0.8;
 }
 
-
 /* Horizontal Line */
 
 .horizontal-line-add6 {
@@ -480,7 +468,6 @@
     background-color: #ccc;
     margin: 10px 0;
 }
-
 
 /* Vertical Line */
 
@@ -495,7 +482,6 @@
     transform: translateX(-50%);
 }
 
-
 /* Remove vertical line on small screens */
 
 @media (max-width: 768px) {
@@ -506,3 +492,4 @@
         grid-column: span 1;
     }
 }
+

@@ -3,7 +3,6 @@ import "./Home.css";
 import Testimonials from "./Testimonials";
 import { Link, useNavigate } from "react-router-dom";
 
-
 const statsData = [
   {
     percentage: "30%",
@@ -22,7 +21,6 @@ const statsData = [
   },
 ];
 
-
  
 
 const Home = () => {
@@ -35,27 +33,27 @@ const Home = () => {
   };
   return (
     <div>
+      
     <div className="home-container">
       {/* Heading Section */}
+       {/* Button Section */}
+       <div className="button-section-m button-section-home">
+        <Link to="/Contact" className="partner-btn">Partner with us</Link>
+        <Link to="/Service" className="services-btn">See our services</Link>
+      </div>
       <div className="heading-section">
         <h1>
         Faces of Change:   <span className="highlight">Carving</span> an {" "}
           <span className="highlight">quicker</span> Inclusive{" "}
           <span className="highlight"> Future</span>.
         </h1>
-        <p className="subheading">
-        At DEIB Innovations, we don’t just support change—we build it. Strategically. Sustainably. With measurable results.
-        </p>
+        
       </div>
 
-      {/* Button Section */}
-      <div className="button-section">
-        <Link to="/Contact" className="partner-btn">Partner with us</Link>
-        <Link to="/Service" className="services-btn">See our services</Link>
-      </div>
+     
 
       {/* Logo Section */}
-      <div className="logo-section">
+      {/* <div className="logo-section">
         <div className="logo-slider">
           <div className="logo-item">
             <img
@@ -94,12 +92,17 @@ const Home = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
     {/* <StatsSection/> */}
     <div className="stats-container">
       <div className="stats-heading">
         Work with us to  <span className="move-text">move</span> the needle
+      </div>
+      <div className="subheading-container">
+      <p className="subheading">
+        At DEIB Innovations, we don’t just support change we build it. Strategically. Sustainably. With measurable results.
+        </p>
       </div>
       <div className="stats-grid">
         {statsData.map((stat, index) => (
@@ -113,7 +116,6 @@ const Home = () => {
       </div>
     </div>
     {/* <Box/> */}
-
 
     <div className="container-add6">
       <h1 className="title-add6">A Seamless, Integrated DEIB Approach</h1>

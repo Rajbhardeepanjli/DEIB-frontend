@@ -1,3 +1,80 @@
+.deib-ur-container {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.deib-ur-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.deib-ur-highlight {
+    color: #064e3b;
+}
+
+.deib-ur-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.deib-ur-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.deib-ur-card:hover {
+    transform: scale(1.05);
+}
+
+.deib-ur-icon {
+    font-size: 2.5rem;
+}
+
+.deib-ur-card-title {
+    font-size: 1.8rem;
+    color: #064e3b;
+    margin-top: 10px;
+}
+
+.deib-ur-description {
+    font-size: 1rem;
+    color: #666;
+    margin: 10px 0;
+}
+
+.deib-ur-list {
+    list-style: none;
+    padding: 0;
+}
+
+.deib-ur-list-item {
+    font-size: 1rem;
+    color: #444;
+    margin: 5px 0;
+}
+
+.deib-ur-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+
+
+
+
 body{
     width: 100%;
     overflow-x: hidden;
