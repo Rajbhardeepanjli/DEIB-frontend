@@ -11,7 +11,7 @@ const statsData = [
   },
   {
     percentage: "22%",
-    description: "improvement in perceived fairness of performance management",
+    description: "Improvement in perceived fairness of performance management",
     logo: "https://s3.us-east-1.amazonaws.com/peoplism.s8/statistics/_AUTOx70_fit_center-center_none/image-2.png", // Replace with actual logo URL
   },
   {
@@ -37,10 +37,10 @@ const Home = () => {
     <div className="home-container">
       {/* Heading Section */}
        {/* Button Section */}
-       <div className="button-section-m button-section-home">
+       {/* <div className="button-section-m button-section-home">
         <Link to="/Contact" className="partner-btn">Partner with us</Link>
         <Link to="/Service" className="services-btn">See our services</Link>
-      </div>
+      </div> */}
       <div className="heading-section">
         <h1>
         Faces of Change:   <span className="highlight">Carving</span> an {" "}
@@ -52,67 +52,46 @@ const Home = () => {
 
      
 
-      {/* Logo Section */}
-      {/* <div className="logo-section">
-        <div className="logo-slider">
-          <div className="logo-item">
-            <img
-              src="/images/dddd.jpeg"
-              alt="Logo 1"
-            />
-          </div>
-          <div className="logo-item">
-            <img
-              src="https://s3.us-east-1.amazonaws.com/peoplism.s8/betterment2.svg"
-              alt="Logo 2"
-            />
-          </div>
-          <div className="logo-item">
-            <img
-              src="https://s3.us-east-1.amazonaws.com/peoplism.s8/thredup.svg"
-              alt="Logo 3"
-            />
-          </div>
-          <div className="logo-item">
-            <img
-              src="https://s3.us-east-1.amazonaws.com/peoplism.s8/_105x36_fit_center-center_none/lattice.png"
-              alt="Logo 4"
-            />
-          </div>
-          <div className="logo-item">
-            <img
-              src="https://s3.us-east-1.amazonaws.com/peoplism.s8/_105x36_fit_center-center_none/thinx.png"
-              alt="Logo 5"
-            />
-          </div>
-          <div className="logo-item">
-            <img
-              src="https://s3.us-east-1.amazonaws.com/peoplism.s8/classpass-logo.svg"
-              alt="Logo 6"
-            />
-          </div>
-        </div>
-      </div> */}
     </div>
     {/* <StatsSection/> */}
-    <div className="stats-container">
-      <div className="stats-heading">
-        Work with us to  <span className="move-text">move</span> the needle
-      </div>
-      <div className="subheading-container">
-      <p className="subheading">
-        At DEIB Innovations, we don’t just support change we build it. Strategically. Sustainably. With measurable results.
+    <div className="work-container16">
+      <div className="work-content16">
+        {/* Title */}
+        <h2 className="title16">Work with us to move the needle</h2>
+
+        {/* Description */}
+        <p className="description16">
+          At <span className="highlight16">DEIB Innovations</span>, we don’t just support change we build it.
         </p>
-      </div>
-      <div className="stats-grid">
-        {statsData.map((stat, index) => (
-          <div key={index} className="stats-card">
-            <h2 className="stats-percentage">{stat.percentage}</h2>
-            <p className="stats-description">{stat.description}</p>
-            {/* <img src={stat.logo} alt="Company Logo" className="stats-logo" /> */}
-            {index < statsData.length - 1 && <div className="divider"></div>}
+
+        {/* Highlighted Cards */}
+        <div className="highlight-container16">
+          <div className="highlight-card16">
+            <p>Strategically</p>
           </div>
-        ))}
+          <div className="highlight-card16 alt16">
+            <p>Sustainably</p>
+          </div>
+          <div className="highlight-card16">
+            <p>Measurable results</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Stats Section */}
+      <div className="stats-container16">
+        <div className="stat-card16">
+          <h3 className="h316">30%</h3>
+          <p className="p16">More employees say leadership fosters</p>
+        </div>
+        <div className="stat-card16">
+          <h3 className="h316">22%</h3>
+          <p className="p16">Improvement in perceived fairness of performance management</p>
+        </div>
+        <div className="stat-card16">
+          <h3 className="h316">88%</h3>
+          <p className="p16">Stronger sense of belonging in the workplace</p>
+        </div>
       </div>
     </div>
     {/* <Box/> */}
@@ -170,9 +149,9 @@ const Home = () => {
     </div>
 
     <Testimonials/>
-    <div className="sky-img-container">
+    {/* <div className="sky-img-container">
       <img src="/images/sky.avif" alt="" className="sky-images"/>
-    </div>
+    </div> */}
     </div>
   );
 };

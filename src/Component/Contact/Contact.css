@@ -4,8 +4,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 400px;
-    padding-left: 5%;
+    height: auto;
+    padding-left: 40%;
     background-color: #ffffff;
     padding-top: 5%;
 }
@@ -13,17 +13,18 @@
 .text-wrapper {
     text-align: center;
     margin: 0;
+    display: flex;
 }
 
 .ready-text {
-    font-size: 72px;
+    font-size: 3rem;
     font-weight: 400;
     color: #000000;
     margin: 0 0 10px 0;
 }
 
 .progress-text {
-    font-size: 100px;
+    font-size: 3rem;
     font-weight: 500;
     font-style: italic;
     margin: 0;

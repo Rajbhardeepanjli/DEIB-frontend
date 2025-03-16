@@ -28,23 +28,28 @@ const Header = () => {
       {/* Navigation Links */}
       <ul className={`nav-links ${isMenuOpen ? "active" : ""}`}>
       <li><Link to="/">Home</Link></li>
+      <li><Link to="#">Methodology</Link></li>
         <li className="nav-dropdown">
           <li><Link to="/service">Services</Link></li>
-          {/* <div className="nav-dropdown-menu">
-            <Link to="/strategy&consulting">Strategy & Consulting</Link>
-            <Link to="/traning">Traning</Link>
-          </div> */}
+          <div className="nav-dropdown-menu">
+            <Link to="/service">Diversity</Link>
+            <Link to="/service">Equity</Link>
+            <Link to="/service">Inclusion</Link>
+            <Link to="/service">Belonging</Link>
+          </div>
         </li>
         <li><Link to="/resources">Resources</Link></li>
         <li><Link to="/about-us">About us</Link></li>
-        <li><Link to="/career">Careers</Link></li>
+        {/* <li><Link to="/career">Careers</Link></li> */}
+        
+        <li><Link to="/contact" className="nav-contact-btn">Contact</Link></li>
         {/* <li><Link to="/impact">Impact</Link></li> */}
        
        
       </ul>
 
       {/* Contact Button */}
-      <button className="nav-contact-btn"><Link to="/contact" className="nav-contact-btn">Contact</Link></button>
+      {/* <button className="nav-contact-btn"><Link to="/contact" className="nav-contact-btn">Contact</Link></button> */}
     </nav>
   );
 };

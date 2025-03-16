@@ -57,7 +57,7 @@
 
 .g-form-button {
   width: 100%;
-  background-color: rgb(13, 181, 13);
+  background-color: #252525;
   color: white;
   padding: 10px;
   border: none;
@@ -69,5 +69,5 @@
 }
 
 .g-form-button:hover {
-  background-color: rgb(4, 162, 4);
+  background-color: rgb(48, 48, 48);
 }

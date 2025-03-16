@@ -43,7 +43,7 @@
   .founder-title {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #047857;
+    color: #252525;
   }
   
   .founder-paragraph {
@@ -56,7 +56,7 @@
     margin-top: 1.5rem;
     font-size: 1.2rem;
     font-weight: bold;
-    color: #047857;
+    color: #252525;
     font-style: italic;
   }
   
@@ -153,7 +153,7 @@
   }
   
   .wh-why-we-exist {
-    background-color: #2f855a;
+    background-color: #252525;
     color: white;
     flex-direction: row-reverse;
     border: 1px solid #ccc;
@@ -180,7 +180,7 @@
   .wh-title {
     font-size: 36px;
     font-weight: bold;
-    color: #2f855a;
+    color: #252525;
   }
   
   .wh-subtitle {
@@ -209,7 +209,7 @@
   
   .wh-highlight {
     font-weight: bold;
-    color: #2f855a;
+    color: #252525;
   }
   
   .wh-bold {
@@ -350,7 +350,7 @@
     font-size:1.5rem;
     font-weight: 600;
     color: #1f2937;
-    border-bottom: 4px solid #047857;
+    border-bottom: 4px solid #252525;
     padding-bottom: 0.5rem;
     text-align: center;
   }
@@ -395,12 +395,12 @@
   .D-cta button {
     margin-top: 1.5rem;
     padding: 1rem 2rem;
-    background: #047857;
+    background: #252525;
     color: white;
     font-size: 1.125rem;
     font-weight: 700;
     border-radius: 0.5rem;
-    box-shadow: 0px 5px 15px #047857;
+    box-shadow: 0px 5px 15px #252525;
     transition: background 0.3s ease-in-out;
     border: none;
     cursor: pointer;
@@ -434,7 +434,7 @@
   .ab-title {
     font-size: 2rem;
     font-weight: bold;
-    color: #047857;
+    color: #252525;
     margin-bottom: 2rem;
   }
   

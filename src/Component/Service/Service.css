@@ -12,7 +12,7 @@
 }
 
 .deib-ur-highlight {
-    color: #064e3b;
+    color: #252525;
 }
 
 .deib-ur-grid {
@@ -42,7 +42,7 @@
 
 .deib-ur-card-title {
     font-size: 1.8rem;
-    color: #064e3b;
+    color: #252525;
     margin-top: 10px;
 }
 
@@ -77,7 +77,7 @@
 
 body{
     width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .dei-container {
     display: flex;

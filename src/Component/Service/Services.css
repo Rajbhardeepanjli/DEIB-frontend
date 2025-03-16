@@ -118,26 +118,26 @@
   
   /* DEIB Model Section */
   .deib-model-ur {
-    background-color: #09872b;
-    color: white;
+    
+    color: black;
     padding: 4rem 2rem;
   }
   
   .deib-model-container-ur {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     text-align: center;
   }
   
   .deib-model-title-ur {
-    font-size: 2rem;
+    font-size: 2.6rem;
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: 0.4rem;
   }
   
   .deib-model-description-ur {
     font-size: 1.2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
   }
   
   .deib-model-image-container-ur {
@@ -167,7 +167,7 @@
 
 
 .deib-ur-container {
-    width: 100%;
+    max-width: 100%;
     padding: 40px 20px;
     background-color: #f8f9fa;
     text-align: center;
@@ -180,7 +180,7 @@
 }
 
 .deib-ur-highlight {
-    color: #064e3b;
+    color: #252525;
 }
 
 .deib-ur-grid {
@@ -191,19 +191,22 @@
 }
 
 .deib-ur-card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: white;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 900px;
-    text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 300px; /* Ensures equal height */
+  width: 70%;
+  box-sizing: border-box;
+  text-align: left;
+  flex-grow: 1;
 }
 
 .deib-ur-reverse {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .deib-ur-image {
@@ -227,7 +230,7 @@
 .deib-ur-heading {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #064e3b;
+    color: #252525;
 }
 
 .deib-ur-description {

@@ -7,9 +7,10 @@ const ProgressText = () => {
     <div>
     <div className="progress-container">
       <div className="text-wrapper">
-        <p className="ready-text">Ready to make</p>
+        <p className="ready-text">Ready to make 
         <p className="progress-text">
-          <span className="highlight">progress?</span>
+          <span className="highlight"> progress?</span>
+        </p>
         </p>
       </div>
     </div>
