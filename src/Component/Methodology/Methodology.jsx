@@ -84,7 +84,7 @@ function Methodology() {
       {/* Image on Top */}
       <div className="image-container">
         <img
-          src="./images/IMG_5724.JPG"
+          src="./images/abcd.jpg"
           alt="Discovery Process"
           className="discovery-image"
         />
