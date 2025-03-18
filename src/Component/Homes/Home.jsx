@@ -2,27 +2,6 @@ import React from "react";
 import "./Home.css";
 import Testimonials from "./Testimonials";
 import { Link, useNavigate } from "react-router-dom";
-
-const statsData = [
-  {
-    percentage: "30%",
-    description: "More employees say leadership fosters ",
-    logo: "https://s3.us-east-1.amazonaws.com/peoplism.s8/statistics/_AUTOx70_fit_center-center_none/image-1.png", // Replace with actual logo URL
-  },
-  {
-    percentage: "22%",
-    description: "Improvement in perceived fairness of performance management",
-    logo: "https://s3.us-east-1.amazonaws.com/peoplism.s8/statistics/_AUTOx70_fit_center-center_none/image-2.png", // Replace with actual logo URL
-  },
-  {
-    percentage: "88%",
-    description: "Stronger sense of belonging in the workplace",
-    logo: "https://s3.us-east-1.amazonaws.com/peoplism.s8/statistics/_AUTOx70_fit_center-center_none/image-3.png", // Replace with actual logo URL
-  },
-];
-
- 
-
 const Home = () => {
 
   const navigate = useNavigate();
@@ -36,11 +15,6 @@ const Home = () => {
       
     <div className="home-container">
       {/* Heading Section */}
-       {/* Button Section */}
-       {/* <div className="button-section-m button-section-home">
-        <Link to="/Contact" className="partner-btn">Partner with us</Link>
-        <Link to="/Service" className="services-btn">See our services</Link>
-      </div> */}
       <div className="heading-section">
         <h1>
         Faces of Change:   <span className="highlight">Carving</span> an {" "}
@@ -73,7 +47,7 @@ const Home = () => {
             <p>Sustainably</p>
           </div>
           <div className="highlight-card16">
-            <p>Measurable results</p>
+            <p>Measurable Results</p>
           </div>
         </div>
       </div>
@@ -148,10 +122,7 @@ const Home = () => {
       </div>
     </div>
 
-    <Testimonials/>
-    {/* <div className="sky-img-container">
-      <img src="/images/sky.avif" alt="" className="sky-images"/>
-    </div> */}
+    {/* <Testimonials/> */}
     </div>
   );
 };

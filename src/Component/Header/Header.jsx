@@ -1,7 +1,6 @@
-import React, { useState } from "react";
-import "./Header.css"; // Import the CSS file
+import React, { useState } from "react"; 
+import "./Header.css"; 
 import { Link } from 'react-router-dom';
-// import logo from './assets/dddd.jpeg';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,11 +9,15 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleLinkClick = () => {
+    setIsMenuOpen(false); // Close menu when a link is clicked
+  };
+
   return (
     <nav className="nav-container">
       {/* Logo */}
       <div className="nav-logo">
-        <img src="/images/dddd.jpeg"  alt="Logo" />
+        <img src="/images/Logo.png" alt="Logo" />
         <span>DEIB Innovation</span>
       </div>
 
@@ -27,29 +30,33 @@ const Header = () => {
 
       {/* Navigation Links */}
       <ul className={`nav-links ${isMenuOpen ? "active" : ""}`}>
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="#">Methodology</Link></li>
+        <li>
+          <Link to="/" onClick={handleLinkClick}>Home</Link>
+        </li>
+        <li>
+          <Link to="/methodology" onClick={handleLinkClick}>Methodology</Link>
+        </li>
         <li className="nav-dropdown">
-          <li><Link to="/service">Services</Link></li>
+          <Link to="/service" onClick={handleLinkClick}>Services</Link>
           <div className="nav-dropdown-menu">
-            <Link to="/service">Diversity</Link>
-            <Link to="/service">Equity</Link>
-            <Link to="/service">Inclusion</Link>
-            <Link to="/service">Belonging</Link>
+            <Link to="/service" onClick={handleLinkClick}>Diversity</Link>
+            <Link to="/service" onClick={handleLinkClick}>Equity</Link>
+            <Link to="/service" onClick={handleLinkClick}>Inclusion</Link>
+            <Link to="/service" onClick={handleLinkClick}>Belonging</Link>
           </div>
         </li>
-        <li><Link to="/resources">Resources</Link></li>
-        <li><Link to="/about-us">About us</Link></li>
-        {/* <li><Link to="/career">Careers</Link></li> */}
-        
-        <li><Link to="/contact" className="nav-contact-btn">Contact</Link></li>
-        {/* <li><Link to="/impact">Impact</Link></li> */}
-       
-       
+        <li>
+          <Link to="/resources" onClick={handleLinkClick}>Resources</Link>
+        </li>
+        <li>
+          <Link to="/about-us" onClick={handleLinkClick}>About us</Link>
+        </li>
+        <li>
+          <Link to="/contact" className="nav-contact-btn" onClick={handleLinkClick}>
+            Contact
+          </Link>
+        </li>
       </ul>
-
-      {/* Contact Button */}
-      {/* <button className="nav-contact-btn"><Link to="/contact" className="nav-contact-btn">Contact</Link></button> */}
     </nav>
   );
 };

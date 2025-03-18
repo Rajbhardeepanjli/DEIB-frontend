@@ -3,35 +3,12 @@ import "./About.css";
 import Img from "./Img";
 import Team from "./Team";
 
-
-const statsData = [
-  {
-    percentage: "Data + Strategy = Real Change",
-    description: "We combine deep analytics with tailored solutions to deliver impact.",
-    logo: "https://s3.us-east-1.amazonaws.com/peoplism.s8/statistics/_AUTOx70_fit_center-center_none/image-1.png", // Replace with actual logo URL
-  },
-  {
-    percentage: "Beyond One-Size-Fits-All ",
-    description: "Every organization is unique, so we customize every DEIB initiative.",
-    logo: "https://s3.us-east-1.amazonaws.com/peoplism.s8/statistics/_AUTOx70_fit_center-center_none/image-2.png", // Replace with actual logo URL
-  },
-  {
-    percentage: "Sustainable, Not Surface-Level ",
-    description: "We focus on long-term transformation, not just quick fixes.",
-    logo: "https://s3.us-east-1.amazonaws.com/peoplism.s8/statistics/_AUTOx70_fit_center-center_none/image-3.png", // Replace with actual logo URL
-  },
-  {
-    percentage: "Human-Centered, Business-Aligned",
-    description: "Balancing people-first approaches with business objectives.",
-    logo: "https://s3.us-east-1.amazonaws.com/peoplism.s8/statistics/_AUTOx70_fit_center-center_none/image-3.png", // Replace with actual logo URL
-  },
-];
 const About = () => {
   return (
     <div>
 
 <div className="founder-container">
-  <h1 className="founder-heading-h1">Our Founder’s Journey: From Resilience to Revolutionizing Inclusion</h1>
+  <h1 className="founder-heading-h1">Our Founder’s Journey, <br/> <span>From Resilience to Revolutionizing Inclusion </span> </h1>
       {/* First Founder */}
       <div className="founder-card">
         <div className="founder-image-container">
@@ -48,14 +25,14 @@ const About = () => {
           <p className="founder-paragraph">
             <strong>Neetu Mehta</strong>, a proud polio survivor, has lived the challenges
             of accessibility and inclusion firsthand. Her journey from overcoming
-            personal barriers to driving systemic change in workplaces fuels the mission of DEIB Innovations.
+            personal barriers to driving systemic change in workplaces fuels the mission of DEIB Innovation.
           </p>
           <p className="founder-paragraph">
             With a deep-rooted belief in <strong>Equity, Representation, and Workplace Transformation</strong>,
-            she founded DEIB Innovations to turn Intent into Action—helping businesses build truly
+            she founded DEIB Innovation to turn Intent into Action—helping businesses build truly
             inclusive and high-performing organizations.
           </p>
-          <p className="founder-quote">“Inclusion isn’t just a principle—it’s my purpose.” – Neetu Mehta</p>
+          <p className="founder-quote">“Inclusion isn’t just a principle, it’s my purpose.” – Neetu Mehta</p>
         </div>
       </div>
 
@@ -72,7 +49,7 @@ const About = () => {
         <h1 className="founder-title">
         Shyambahadur Prajapati 
           </h1>
-          <p className="founder-paragraph"> <strong> Shyam </strong>
+          <p className="founder-paragraph"> <strong> Shyambahadur Prajapat </strong>
             HR Leader & Innovator 17 years of experience in Human Resources, Shyambahadur Prajapati has played a pivotal role in shaping HR strategies across leading organizations like Myntra, GM Infotech, Interactive Group, iTech Media, and Thomas International. Currently serving as Head HR at GM Infotech, he leads comprehensive HR functions, driving talent acquisition, performance management, employee engagement, and organizational development.
           </p>
           <p className="founder-paragraph">  Shyambahadur is known for his
@@ -81,7 +58,7 @@ const About = () => {
  to HR, including integrating numerology in hiring decisions, fostering inclusive workplace cultures, and implementing strategies that enhance operational efficiency. His expertise and forward-thinking mindset continue to make a lasting impact in the HR community.
 
           </p>
-          <p className="founder-quote">“Inclusion isn’t just a principle—it’s my purpose.” – Shyam </p>
+          <p className="founder-quote">“Inclusion is not a favor, diversity is not a checkbox, and equity is not an option. Together, they build stronger workplaces and a better world.” <br /> – Shyambahadur Prajapat </p>
         </div>
       </div>
     </div>
@@ -106,7 +83,7 @@ const About = () => {
         {/* Right Section - Image */}
         <div className="wh-image-container">
           <img
-            src="https://source.unsplash.com/500x400/?team,collaboration"
+            src="/images/IMG_5723.JPG"
             alt="Diversity Team"
             className="wh-image"
           />
@@ -118,7 +95,7 @@ const About = () => {
         {/* Left Section - Image */}
         <div className="wh-image-container">
           <img
-            src="#"
+            src="/images/IMG_5724.JPG"
             alt="Growth Representation"
             className="wh-image"
           />
@@ -132,7 +109,7 @@ const About = () => {
             Workplaces talk about diversity. We make it work.
           </p>
           <p className="wh-text2">
-            At <span className="wh-bold">DEIB Innovations</span>, we saw a gap— Organizations strive for inclusion but often struggle to turn intention into impact. That’s where we come in.
+            At <span className="wh-bold">DEIB Innovation</span>, we saw a gap, Organizations strive for inclusion but often struggle to turn intention into impact. That’s where we come in.
           </p>
         </div>
       </div>
@@ -143,28 +120,28 @@ const About = () => {
         <h2 className="ab-title">What Sets Us Apart?</h2>
         <div className="ab-grid">
           <div className="ab-feature">
-            <span className="ab-icon">🔹</span>
+            <span className="ab-icon">◆</span>
             <p className="ab-feature-title">Data + Strategy = Real Change</p>
             <p className="ab-feature-description">
               We combine deep analytics with tailored solutions to deliver impact.
             </p>
           </div>
           <div className="ab-feature">
-            <span className="ab-icon">🔹</span>
+            <span className="ab-icon">◆</span>
             <p className="ab-feature-title">Beyond One-Size-Fits-All</p>
             <p className="ab-feature-description">
               Every organization is unique, so we customize every DEIB initiative.
             </p>
           </div>
           <div className="ab-feature">
-            <span className="ab-icon">🔹</span>
+            <span className="ab-icon">◆</span>
             <p className="ab-feature-title">Sustainable, Not Surface-Level</p>
             <p className="ab-feature-description">
               We focus on long-term transformation, not just quick fixes.
             </p>
           </div>
           <div className="ab-feature">
-            <span className="ab-icon">🔹</span>
+            <span className="ab-icon">◆</span>
             <p className="ab-feature-title">Human-Centered, Business-Aligned</p>
             <p className="ab-feature-description">
               Balancing people-first approaches with business objectives.
@@ -183,7 +160,7 @@ const About = () => {
         <div className="D-header">
           <h1>Diversity Fuels Innovation</h1>
           <p>
-            True growth happens when diverse voices shape the strategy. By embedding DEIB into the core of decision-making, we don’t just expand businesses—we create lasting impact.
+            True growth happens when diverse voices shape the strategy. By embedding DEIB into the core of decision-making, we don’t just expand businesse, we create lasting impact.
           </p>
         </div>
 
@@ -228,8 +205,8 @@ const About = () => {
 
         {/* Call to Action */}
         <div className="D-cta">
-          <p>At DEIB Innovations, we’re not just shaping change—we’re setting the standard.</p>
-          <button>Ready to transform your workplace? Let’s make inclusion work.</button>
+          <p>At DEIB Innovation we’re not just shaping change, we’re setting the standard.</p>
+          {/* <button>Ready to transform your workplace? Let’s make inclusion work.</button> */}
         </div>
       </div>
     </div>

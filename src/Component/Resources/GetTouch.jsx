@@ -25,6 +25,11 @@ export default function  GetTouch() {
             <label className="g-form-label">Designation</label>
             <input type="text" className="g-form-input" placeholder="Enter your designation" />
           </div>
+
+          <div className="g-form-group">
+            <label className="g-form-label">Message</label>
+            <input type="text" className="g-form-input" placeholder="Write Your Message" />
+          </div>
           
           <button type="submit" className="g-form-button">Submit</button>
         </form>

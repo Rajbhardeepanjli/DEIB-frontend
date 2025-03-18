@@ -21,7 +21,7 @@ const pillars = [
       "Diverse Leadership Development – Cultivate future-ready leaders.",
       "Supplier Diversity & Partnerships – Strengthen brand impact through inclusive sourcing.",
     ],
-    image: "/images/diversity.jpg",
+    image: "/images/IMG_5726.JPG",
   },
   {
     title: "Equity",
@@ -32,7 +32,7 @@ const pillars = [
       "Bias-Free Performance Reviews – Replace subjectivity with structured evaluations.",
       "Career Growth & Mobility – Create transparent pathways for advancement.",
     ],
-    image: "/images/equity.jpg",
+    image: "/images/IMG_5728.JPG",
   },
   {
     title: "Inclusion",
@@ -43,7 +43,7 @@ const pillars = [
       "Allyship & Unconscious Bias Training – Drive real behavioral change.",
       "Neurodiversity & Disability Inclusion – Build an accessible, accommodating workplace.",
     ],
-    image: "/images/inclusion.jpg",
+    image: "/images/IMG_5725.JPG",
   },
   {
     title: "Belonging",
@@ -54,7 +54,7 @@ const pillars = [
       "Psychological Safety & Well-being – Foster trust, openness, and support.",
       "Recognition & Inclusive Policies – Ensure employees feel valued and empowered.",
     ],
-    image: "/images/belonging.jpg",
+    image: "/images/IMG_5729.JPG",
   },
 ];
 
@@ -62,59 +62,18 @@ const Service = () => {
 
   return (
     <div>
-    {/* <div className="dei-container"> */}
-      {/* <div className="dei-content">
-        <h1 className="dei-heading">
-          Your DEI <br /> journey starts <br />
-          <span className="dei-highlight">here</span>
+
+<div className="dei-container-s"> 
+<div className="dei-content">
+        <h1 className="dei-heading-s">
+          Our DEIB {" "}
+          <span className="dei-highlight">Services</span>
         </h1>
-        <h2>From Awareness to Action, From Goals to Growth</h2>
-        <p className="dei-description">
-        Creating an inclusive, high-performing
-         workplace isn’t just about intention it’s about strategic action.
-        </p>
       </div>
     </div>
-
-  
-
-   <div className="service-image"> <img className="image1" src="/images/service.avif" alt="" /> </div> 
-      */}
-
+   
     <div className="deib-page-ur">
 
-      {/* <header className="header-ur">
-        <h1 className="header-title-ur">Where Do You Stand?</h1>
-        <p className="header-description-ur">
-          DEIB Assessment & Roadmap – Identify gaps, Unlock opportunities, Build a culture of belonging.
-        </p>
-      </header> */}
-
-
-      {/* <section className="features-ur">
-        <div className="features-container-ur">
-          <h2 className="features-title-ur">
-            We go beyond checklists, Our expert-driven assessment provides
-          </h2>
-          <div className="features-cards-ur">
-          
-            <div className="feature-card-ur">
-              <h3 className="feature-title-ur">Data-Backed Insights</h3>
-              <p>Measure your DEIB progress in hiring, leadership, & culture.</p>
-            </div>
-           
-            <div className="feature-card-ur">
-              <h3 className="feature-title-ur">Employee-Centered Engagement</h3>
-              <p>Involve your people to drive real ownership & inclusivity.</p>
-            </div>
-         
-            <div className="feature-card-ur">
-              <h3 className="feature-title-ur">Customized Roadmap</h3>
-              <p>No one-size-fits-all approach. Your strategy, tailored for real impact.</p>
-            </div>
-          </div>
-        </div>
-      </section> */}
 
       {/* Action Section */}
       {/* <section className="action-ur">
@@ -155,7 +114,7 @@ const Service = () => {
           </p>
           <div className="deib-model-image-container-ur">
             <img
-              src="path/to/your-deib-model-image.png" // Replace with your DEIB model image
+              src="/images/IMG_5727.JPG" // Replace with your DEIB model image
               alt="DEIB Model"
               className="deib-model-image-ur"
             />
@@ -196,21 +155,17 @@ const Service = () => {
       <header className="header-urb">
         <h1 className="header-title-ur">Ready to Transform Your Workplace?</h1>
         <p className="header-description-ur">
-          Let’s build a future of Inclusion, Innovation, and Impact—Together.
+          Let’s build a future of Inclusion, Innovation, and Impact Together.
         </p>
-      </header>
-
-      {/* Call to Action Section */}
-      {/* <section className="cta-section-ur">
+        <section className="cta-section-ur">
         <div className="cta-container-ur">
-          <a href="/consultation-form" className="cta-button-ur partner-btn-ur">
+          <a href="/contact" className="cta-button-ur partner-btn-ur">
             Partner With Us
           </a>
-          <a href="/resources" className="cta-button-ur explore-btn-ur">
-            Explore More Resources
-          </a>
         </div>
-      </section> */}
+      </section>
+      </header>
+      
     </div>
     </div>
 

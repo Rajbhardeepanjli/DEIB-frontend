@@ -1,23 +1,7 @@
-import React, { useRef } from "react";
 import "./Resources.css";
-import Bot from "./bot";
-import Press from "./Press";
-import HelpSection from "./HelpSection";
-import BlogGrid from "./BlogGrid";
 import { Link } from 'react-router-dom';
 
 const Resources = () => {
-  // ✅ Create Refs for Sections
-  const botRef = useRef(null);
-  const pressRef = useRef(null);
-  const blogRef = useRef(null);
-
-  // ✅ Scroll Function
-  const scrollToSection = (ref) => {
-    if (ref.current) {
-      ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-  };
 
   return (
     <div> <div className="rc"> 
@@ -105,36 +89,10 @@ const Resources = () => {
         <div className="contact-card contact-purple">
           <h2> Need Expert Guidance?</h2>
           <p>Get help implementing effective DEIB strategies.</p>
-          <a href="/getintouch" className="contact-button contact-purple"> Get in Touch</a>
+          <a href="/getintouch" className="contact-button-p contact-purple"> Get in Touch</a>
         </div>
       </div>
     </div>
-
-
-      {/* <div className="resources-container">
-        <div className="resources-text">
-          Resources by <br /> us for <span className="italic-text">you <span className="underline"></span></span>
-        </div>
-        <div className="button-group">
-          <button className="resource-button" onClick={() => scrollToSection(botRef)}>Resources</button>
-          <button className="resource-button" onClick={() => scrollToSection(pressRef)}>Press</button>
-          <button className="resource-button" onClick={() => scrollToSection(blogRef)}>Blog</button>
-        </div>
-      </div>
-
-     
-      <div ref={botRef}>
-        <Bot />
-      </div>
-
-      <div ref={pressRef}>
-        <Press />
-      </div>
-
-      <HelpSection />
-      <div ref={blogRef}>
-        <BlogGrid />
-      </div> */}
 
     </div>
   );

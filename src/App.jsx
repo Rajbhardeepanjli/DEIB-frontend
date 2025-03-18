@@ -6,7 +6,6 @@ import Contact from './Component/Contact/Contact';
 import Footer from './Component/Footer/Footer';
 import Service from './Component/Service/Service';
 import Resources from './Component/Resources/Resources';
-
 import Career from './Component/Careers/Career';
 import Impact from './Component/Impact/Impact';
 import About from './Component/Abouts/About';
@@ -14,6 +13,7 @@ import ContactForm from './Component/Contact/ContactForm';
 import Profile from './Component/Profiles/Profile';
 import DEIBCaseStudy from './Component/Resources/DIEBCasestudy';
 import GetTouch from './Component/Resources/GetTouch';
+import Methodology from './Component/Methodology/Methodology';
 
 function App() {
 
@@ -22,6 +22,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/methodology" element={<Methodology />} />
         <Route path="/service" element={<Service />} />
         <Route path="/resources" element={<Resources />} />
         {/* <Route path="/service" element={<Service />} /> */}

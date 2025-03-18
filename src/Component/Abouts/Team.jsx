@@ -11,7 +11,7 @@ const teamMembers = [
   },
   {
     name: "Sunil",
-    role: "Tech Expert",
+    role: "Tech Advisor",
     image: "/images/Team/3.jpg",
   },
   {
@@ -21,13 +21,13 @@ const teamMembers = [
   },
   {
     name: "Koyal",
-    role: "Advisory Board Member - United States",
+    role: "Business Development Manager",
     image: "/images/Team/5.jpg",
   },
   {
     name: "Preksha",
     role: "Growth & Strategy",
-    image: "/images/Team/5.jpg",
+    image: "/images/pppp.jpeg",
   }
 ];
 
@@ -43,7 +43,7 @@ const Team = () => {
     <div className="team-container">
       <hr className="top-divider" />
       <h2 className="team-title">The Minds Behind the Mission</h2>
-      <p>At DEIB Innovations, our strength is our people—a passionate team of HR strategists, DEI experts, data analysts, and industry leaders who bring together decades of experience in corporate leadership, learning & development, psychology, and change management.</p>
+      <p>At DEIB Innovation, our strength is our people—a passionate team of HR strategists, DEI experts, data analysts, and industry leaders who bring together decades of experience in corporate leadership, learning & development, psychology, and change management.</p>
       <div className="team-grid">
         {teamMembers.map((member, index) => (
           <div key={index} className="team-member">

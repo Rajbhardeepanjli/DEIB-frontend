@@ -60,6 +60,19 @@
     background-color: #5c5c5c;
 }
 
+.error-text {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .success-text {
+    color: green;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
 
 /* Form Styles */
 

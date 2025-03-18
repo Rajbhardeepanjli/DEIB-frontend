@@ -1,0 +1,340 @@
+/* Methodology Section */
+
+.methodology-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    /* border-radius: 12px; */
+    /* box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15); */
+    text-align: center;
+}
+
+/* Image Styling */
+
+.image-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.discovery-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    /* border-radius: 10px; */
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+/* Titles and Text */
+
+.discovery-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.discovery-text {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Info Box */
+
+.info-box {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Titles */
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+/* Steps List */
+
+.discovery-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* List Items */
+
+.discovery-list li {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 12px;
+}
+
+/* Green Checkmark */
+
+.discovery-list li span {
+    color:#44195e ;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+/* InsightsOpportunities.css */
+
+.section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+/* Card Styling */
+
+.card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Heading Styles */
+
+.heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #44195e;
+    margin-bottom: 15px;
+}
+
+.subheading {
+    font-size: 20px;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styling */
+
+.description {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Steps Section */
+
+.steps-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    /* border-radius: 8px; */
+    margin-top: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.steps-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.steps-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* List Items */
+
+.steps-list li {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.steps-list li span {
+    color: #44195e;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+/* Opportunities Card */
+
+.opportunities-card {
+    background-color: #ffffff;
+}
+
+/* General Styling */
+
+.container-methodology {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+/* Card Styling */
+
+.card-methodology {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.gray-bg {
+    background-color: #ffffff;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+/* Headings */
+
+.heading-methodology {
+    font-size: 32px;
+    font-weight: bold;
+    color: #44195e;
+    margin-bottom: 15px;
+}
+
+.sub-heading {
+    font-size: 20px;
+    font-style: italic;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Description Text */
+
+.description {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+/* List Styling */
+
+.list-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.list-heading {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.list li {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.list li::before {
+    content: "✔";
+    color: #44195e;
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+}
+
+/* Ensure container doesn't overflow on small screens */
+
+/* Make grid layout responsive */
+
+@media (max-width: 768px) {
+    .container-methodology {
+        display: block;
+        /* Stack cards vertically */
+    }
+}
+
+/* Improve text readability on small screens */
+
+@media (max-width: 600px) {
+    .heading-methodology {
+        font-size: 22px;
+    }
+    .sub-heading {
+        font-size: 16px;
+    }
+    .description {
+        font-size: 14px;
+    }
+    .list li {
+        font-size: 14px;
+    }
+}
+
+/* Ensure images don't overflow */
+
+.discovery-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Improve spacing and padding */
+
+@media (max-width: 768px) {
+    .card-methodology {
+        padding: 20px;
+    }
+    .steps-container {
+        padding: 15px;
+    }
+    .list-container {
+        padding: 15px;
+    }
+}
+
+/* Ensure lists and steps fit well on mobile */
+
+@media (max-width: 480px) {
+    .list,
+    .steps-list {
+        max-width: 100%;
+    }
+}
+

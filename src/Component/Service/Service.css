@@ -1,3 +1,21 @@
+.deib-ur-container-s {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.dei-heading-s {
+    font-size: 48px;
+    padding-left: 90%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+
 .deib-ur-container {
     background-color: #f4f4f4;
     padding: 50px 20px;
@@ -71,10 +89,6 @@
     margin-top: 15px;
 }
 
-
-
-
-
 body{
     width: 100%;
     /* overflow-x: hidden; */
@@ -94,7 +108,7 @@ body{
 }
 
 .dei-heading {
-    font-size: 64px;
+    font-size: 48px;
     font-weight: 400;
     line-height: 1.2;
     color: black;
@@ -121,8 +135,8 @@ body{
 }
 
 .dei-description {
-    font-size: 16px;
-    color: black;
+    font-size: 1.2rem;
+    color: #252525;
     margin-top: 10px;
     max-width: 500px;
 }
@@ -282,9 +296,7 @@ body{
         padding: 10px 20px;
         font-size: 12px;
     }
-    .next-container {
-     
-    }
+  
     .next-title {
         font-size: 28px;
     }
@@ -350,6 +362,25 @@ body{
     body{
         width: 100%;
     }
+    .dei-heading-s {
+        font-size: 26px;
+        padding-left: 9%;
+        width: 100%;
+        text-align: left;
+        align-items: center;
+        font-weight: 450;
+        line-height: 1.2;
+    }
+    .deib-model-title-ur {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .deib-ur-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+       
     .dei-container {
         padding-left: 10px;
         padding-right: 10px;
@@ -364,6 +395,12 @@ body{
     .dei-description {
         font-size: 12px;
         margin-right: 10px;
+    }
+    .service-image img {
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+        margin-left: 0px;
     }
     .image1 {
         width: 100%;

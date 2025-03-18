@@ -1,7 +1,7 @@
 .rc h1{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: #252525;
-    padding-left: 25%;
+    text-align: center;
     margin-top: 2rem;
     
 }
@@ -202,13 +202,25 @@
     color: white;
     transition: background 0.3s;
   }
+  .contact-button-p {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition: background 0.3s;
+  }
   
   .contact-button.contact-blue {
     background-color: #0d47a1;
+    color: white;
   }
   
   .contact-button.contact-blue:hover {
     background-color: #1565c0;
+    color: white;
   }
   
   .contact-button.contact-green {
@@ -217,14 +229,16 @@
   
   .contact-button.contact-green:hover {
     background-color: #2e7d32;
+    color: white;
   }
   
-  .contact-button.contact-purple {
+  .contact-button-p.contact-purple {
     background-color: #6a1b9a;
   }
   
-  .contact-button.contact-purple:hover {
+  .contact-button-p.contact-purple:hover {
     background-color: #8e24aa;
+    color: white;
   }
   
 /* ✅ Ensure italic style with an underline */
@@ -329,4 +343,23 @@
         /* Full-width buttons for better tap experience */
         text-align: center;
     }
+    .rc h1 {
+      font-size: 26px;
+      color: #252525;
+      padding-left: 0%;
+      margin-top: 2rem;
+  }
+  .rc-deib-container {
+    padding: 21px;
+   
+}
+.rc-deib-content {
+  flex: 1;
+  min-width: 300px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
 }

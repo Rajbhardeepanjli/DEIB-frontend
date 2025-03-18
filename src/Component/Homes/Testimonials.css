@@ -31,10 +31,12 @@
     display: block;
 }
 .title-t {
-    font-size: 26px;
+    font-size: 2rem;
     font-weight: bold;
-    text-transform: uppercase;
     color: #333;
+}
+.make-it-block p{
+    font-size: 20px;
 }
 
 
