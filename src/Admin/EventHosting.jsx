@@ -20,7 +20,7 @@ function EventHosting() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post('http://localhost:5000/add-event', event);
+            const res = await axios.post('https://deib-backend-1.onrender.com/add-event', event);
             alert(res.data.message);
             setEvent({ title: '', description: '', date: '', location: '', Fees:'', WhyAttain:'', otherdetails:'' });
         } catch (error) {
