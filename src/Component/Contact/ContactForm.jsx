@@ -68,7 +68,7 @@ const ContactForm = () => {
 
     try {
       const response = await axios.post(
-        `http://localhost:5000/contact/${endpoint}`,
+        `https://deib-backend-1.onrender.com/contact/${endpoint}`,
         formData
       );
       setErrors({ formSuccess: response.data.message });
